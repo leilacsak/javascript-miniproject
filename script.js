@@ -54,6 +54,18 @@ form.addEventListener("submit", function(event) {
      document.getElementById("result").textContent = euros
 });
 
+//Task 4//
+
+function move() {
+    const blueBox = document.getElementById("blue-box");
+    blueBox.style.position = "relative";
+    blueBox.style.left = "400px";
+    blueBox.style.top = "100px";
+
+    const redBox = document.getElementById("red-box");
+    redBox.style.display = "none";  
+}
+
 
 
 
