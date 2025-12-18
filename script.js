@@ -66,6 +66,15 @@ function move() {
     redBox.style.display = "none";  
 }
 
+//Task 5//
+const clearAllButton = document.getElementById("juhu");
+clearAllButton.addEventListener("click", () => {
+     document.body.innerHTML = '<h1>Job well done!!</h1>';
+  });
+
+
+   
+
 
 
 
