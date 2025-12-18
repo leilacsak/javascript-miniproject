@@ -34,6 +34,11 @@ function showMessage(event) {
     console.log("Username:", value);
 }
 
-
+//Task 2//
+function showMore(event) {
+    const answerQuestion = document.getElementById("answer");
+    answerQuestion.innerHTML = "JavaScript is a scripting or programming language that allows you to implement complex features on web pages";
+}
+    
 
 
