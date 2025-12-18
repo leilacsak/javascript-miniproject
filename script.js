@@ -40,5 +40,20 @@ function showMore(event) {
     answerQuestion.innerHTML = "JavaScript is a scripting or programming language that allows you to implement complex features on web pages";
 }
     
+//Task 3//
+
+const form = document.getElementById("conversion-form");
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const poundsInput = document.getElementById("pounds-amount");
+    const pounds = parseFloat(poundsInput.value);
+    const euros = pounds * 1.15;
+
+     document.getElementById("result").textContent = euros
+});
+
+
 
 
